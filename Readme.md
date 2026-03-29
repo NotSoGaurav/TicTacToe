@@ -63,12 +63,10 @@ Input Validation: In the terminal, try entering a letter or a number already tak
 
 ## 📂 Tech Stack
 
-Language: Python 3.10+
+**Language:** Python 3.10
 
-<<<<<<< HEAD
-Framework: Standard Library (No external dependencies required)
+**Framework:** Standard Library (No external dependencies required)
 
-GUI: Tkinter
+**GUI:** Tkinter
 =======
 GUI Library: Tkinter (Standard Python Library)
->>>>>>> b8978437f4c45dafc51b680c5c590ec674e4edcd
