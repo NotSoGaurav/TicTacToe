@@ -20,7 +20,6 @@ The goal of this project is to bridge the gap between simple game logic and **Ad
 * **Cross-Platform Apps:** This project is focused on the logic (Terminal/GUI) rather than mobile or web deployment.
 
 ## 3. Target Users
-* **Students:** Peers at VIT Bhopal exploring introductory Artificial Intelligence.
 * **Beginners:** Those looking to understand how Recursion and State-Trees work in Python.
 * **Educators:** Professors looking for a clean, well-documented example of Adversarial Search.
 * **Gamers:** Anyone looking to test their skills against a mathematically perfect opponent.
