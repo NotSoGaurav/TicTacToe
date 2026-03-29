@@ -1,6 +1,6 @@
 # Project Statement: AI-Powered TicTacToe
 > **Course:** Fundamentals of AI & ML  
-> **Author:** Gaurav Tiwari (First-Year CSE, VIT Bhopal)
+> **Author:** Gaurav Tiwari 
 
 ## 1. Problem Statement
 The goal of this project is to bridge the gap between simple game logic and **Adversarial Search**. While a standard Tic Tac Toe game follows basic "if-else" rules, this project implements a **Minimax-based AI** to demonstrate how an agent can evaluate the entire state space of a problem to make optimal decisions. The "problem" being solved is creating a digital opponent that can simulate human foresight and never lose a game.
