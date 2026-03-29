@@ -1,35 +1,41 @@
-# Project Statement: AI-Powered TicTacToe
-> **Course:** Fundamentals of AI & ML  
-> **Author:** Gaurav Tiwari 
+### Project Statement: AI-Powered TicTacToe (Project Oracle)
+# Course: Fundamentals of AI & ML
 
-## 1. Problem Statement
-The goal of this project is to bridge the gap between simple game logic and **Adversarial Search**. While a standard Tic Tac Toe game follows basic "if-else" rules, this project implements a **Minimax-based AI** to demonstrate how an agent can evaluate the entire state space of a problem to make optimal decisions. The "problem" being solved is creating a digital opponent that can simulate human foresight and never lose a game.
+1. Problem Statement
 
-## 2. Scope of the Project
+The objective of Project Oracle is to solve the "perfect play" problem in a 3x3 grid environment. While human players often make sub-optimal moves due to fatigue or oversight, this project implements an Adversarial Search agent using the Minimax Algorithm. The goal is to provide a robust demonstration of how AI can evaluate a complete state-space to reach a terminal state that is either a "Win" or a "Draw," never a "Loss."
 
-### In-Scope:
-* **Core Logic:** A fully functional, terminal-based Tic Tac Toe engine.
-* **Human vs. AI:** A seamless gameplay loop allowing a human player to challenge the computer.
-* **Minimax Integration:** Implementation of the Minimax algorithm for optimal, "unbeatable" gameplay.
-* **Game State Management:** Real-time detection of wins, losses, draws, and illegal moves.
-* **UX:** Basic input validation (1–9) and a quit option for a smooth user experience.
+2. Scope of the Project
 
-### Out-of-Scope:
-* **Advanced Optimization:** Heuristic pruning (Alpha-Beta pruning) is excluded to keep the "Fundamentals" focus clear.
-* **Network Play:** No online multiplayer or socket programming.
-* **Cross-Platform Apps:** This project is focused on the logic (Terminal/GUI) rather than mobile or web deployment.
+- In-Scope:
 
-## 3. Target Users
-* **Beginners:** Those looking to understand how Recursion and State-Trees work in Python.
-* **Educators:** Professors looking for a clean, well-documented example of Adversarial Search.
-* **Gamers:** Anyone looking to test their skills against a mathematically perfect opponent.
+Recursive Decision Making: Implementation of a depth-aware Minimax algorithm.
 
-## 4. High-Level Features
-* **Optimal Play:** The AI uses a recursive search to ensure it always picks the best possible move.
-* **Terminal Interface:** A lightweight, numbers-based (1–9) input system for quick gameplay.
-* **Smart Validation:** Prevents players from picking occupied spots or entering invalid data.
-* **Instant Evaluation:** Automatic detection of terminal states (Win/Loss/Draw) immediately after a move is made.
-* **Code Clarity:** Written with a focus on readability and "beginner-friendly" structure, making it easy to audit for academic purposes.
+Game Engine: A state-management system that tracks board positions and validates moves.
 
----
-*This project serves as a practical application of search algorithms studied in the series of AI & ML fundamentals.*
+Hybrid Interface: Support for both Command Line (CLI) and Graphical User Interface (GUI).
+
+Instructional Logic: Code structure designed for academic auditing and algorithm transparency.
+
+- Out-of-Scope:
+
+Heuristic Pruning: Alpha-Beta pruning is omitted to allow evaluators to see the full breadth of the search tree.
+
+Cloud Integration: The project is a standalone local application to ensure zero latency during evaluation.
+
+3. Target Users
+
+A. Academic Evaluators: Professors auditing the application of search algorithms in code.
+B. CSE Students: Peers looking for a reference implementation of recursion in game theory.
+C. Logic Enthusiasts: Users interested in testing human intuition against mathematical 
+   certainty.
+
+4. High-Level Features
+
+Optimal Policy Execution: The AI never deviates from the statistically best move.
+
+Dynamic Validation: The engine prevents "Illegal State" transitions (overlapping moves).
+
+Instant Evaluation: Terminal state detection (Win/Loss/Draw) occurs in $O(1)$ time after each move.
+
+**Educational Architecture: The code is modular, separating the AI "Brain" from the "Interface," following standard software engineering principles.**
