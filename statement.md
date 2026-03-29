@@ -1,4 +1,4 @@
-### Project Statement: AI-Powered TicTacToe (Project Oracle)
+### Project Statement: AI-Powered TicTacToe
 # Course: Fundamentals of AI & ML
 
 1. Problem Statement
