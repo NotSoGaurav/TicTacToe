@@ -69,8 +69,6 @@ Language: Python 3.10+
 Framework: Standard Library (No external dependencies required)
 
 GUI: Tkinter
-
-Developed by Gaurav Tiwari (First-Year CSE) as part of the Vityarthi AI/ML Coursework.
 =======
 GUI Library: Tkinter (Standard Python Library)
 >>>>>>> b8978437f4c45dafc51b680c5c590ec674e4edcd
