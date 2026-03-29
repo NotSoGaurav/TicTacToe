@@ -1,75 +1,72 @@
-## 🕹️ TicTacToe: The Unbeatable Brain
+🕹️ Project Oracle: The Unbeatable TicTacToe
 
-A "Fundamentals of AI & ML" Project | Gaurav Tiwari, VIT Bhopal
+A Fundamentals of AI & ML Project | Gaurav Tiwari, VIT Bhopal
 
-Welcome to TicTacToe AI, a project that turns a childhood game into a demonstration of Adversarial Search. Built for my first-year course, this project explores how a computer "thinks" steps ahead to ensure it never loses.
+Welcome to Project Oracle, a high-performance TicTacToe implementation designed to demonstrate Adversarial Search. This isn't just a game; it is a recursive engine that evaluates every possible future to ensure the AI never loses.
 
-## 🌟 Overview
+🌟 Project Overview
 
-Have you ever wondered if a machine can truly "outsmart" a human in a game of logic? This project answers that with a Minimax-powered AI. Whether you're playing in the classic Terminal or the sleek GUI, you're up against an algorithm that calculates every possible future move in milliseconds.
+How does a machine "think" steps ahead? This project uses the Minimax Algorithm to simulate perfect decision-making. Whether you use the lightweight Terminal interface or the modern GUI, you are playing against a mathematically optimized opponent.
 
-The "Real-World" Connection
+The AI Core
 
-In our daily lives—from navigating traffic to playing sports—we constantly use predictive logic. I built this to observe how Recursive AI can mimic this human behavior to achieve a "Perfect Play" state.
+Algorithm: Minimax (Recursive State-Space Search)
 
-# 🚀 Key Features
+Optimization: Depth-based scoring (The AI wins as fast as possible)
 
-- 🧠 God-Mode AI: Powered by the Minimax Algorithm. It doesn't just play; it calculates your defeat.
+Performance: Real-time evaluation of ~500,000 potential board states.
 
-- 🎮 Dual Interface: * main.py: For the classic, hacker-style Terminal experience.
+🚀 Setup & Execution (Step-by-Step)
 
-main_gui.py: A modern Graphical User Interface for better UX.
+1. Prerequisites
 
-- 🛡️ Fool-Proof Logic: Built-in validation to handle invalid inputs or occupied positions gracefully.
+Ensure you have Python 3.x installed. You can check this by running:
 
-- ⚡ Lightweight: Written in pure Python—no heavy external libraries required.
+python --version
 
-# 🛠️ How the AI "Thinks"
 
-This isn't just a set of *"if-else"* rules. It uses *State-Space* Search:
+2. Installation
 
-- Evaluation:  The AI looks at the board and assigns a score (+10 for an AI win, -10 for a Human win).
-
-- Minimaxing: It recursively simulates every possible game outcome to Maximize its own score while Minimizing yours.
-
-- Recursion: It plays thousands of "mental games" before making a single move on your screen!
-
-### 📥 Getting Started
-
-1. Clone the Brain
+Clone the repository to your local machine:
 
 git clone [https://github.com/NotSoGaurav/TicTacToe.git](https://github.com/NotSoGaurav/TicTacToe.git)
 cd TicTacToe
 
 
-2. Choose Your Battle
+3. Running the Project
 
-For the Terminal version:
+The project offers two ways to play. Choose the one that suits your environment:
+
+Option A: Terminal Interface (Recommended for speed)
 
 python main.py
 
 
-For the GUI version:
+How to play: Enter a number from 1 to 9 corresponding to the grid position. Type q to exit.
+
+Option B: GUI Interface (Best for UX)
 
 python main_gui.py
 
 
-# 🧪 Can You Beat It?
+How to play: Simply click the squares to place your 'X'. The AI ('O') will respond instantly.
 
-The AI is designed to be unbeatable. Here is how you can test its "Intelligence":
+🧪 Testing Scenarios for Evaluators
 
-The Center Trap: Does it always prioritize the middle square (Position 5)?
+To verify the AI's "Intelligence," try the following:
 
-The Fork Test: Can you create two ways to win? (Spoiler: The AI will block you before you can!)
+The Stalemate: Play your best game. If you play perfectly, the AI will force a Draw.
 
-Robustness: Try typing "10", "abc", or choosing an occupied spot to see the error handling.
+The Trap: Try to set up a "double-win" (a fork). Watch as the AI detects and blocks it before you can finish.
 
-# 📂 Tech Stack
+Input Validation: In the terminal, try entering a letter or a number already taken. The system will prevent the move and ask for a valid one.
 
-Language: Python 3.x
+📂 Tech Stack
 
-Core Logic: Minimax Algorithm (Adversarial Search)
+Language: Python 3.10+
 
-GUI Library: Tkinter (Standard Python Library)
+Framework: Standard Library (No external dependencies required)
 
-Created by Gaurav Tiwari, a first-year CSE student at VIT Bhopal.
+GUI: Tkinter
+
+Developed by Gaurav Tiwari (First-Year CSE) as part of the Vityarthi AI/ML Coursework.
