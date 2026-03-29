@@ -37,14 +37,14 @@ cd TicTacToe
 
 The project offers two ways to play. Choose the one that suits your environment:
 
-Option A: Terminal Interface (Recommended for speed)
+. Option A: Terminal Interface (Recommended for speed)
 
 python main.py
 
 
 How to play: Enter a number from 1 to 9 corresponding to the grid position. Type q to exit.
 
-Option B: GUI Interface (Best for UX)
+. Option B: GUI Interface (Best for UX)
 
 python main_gui.py
 
@@ -53,13 +53,13 @@ How to play: Simply click the squares to place your 'X'. The AI ('O') will respo
 
 ## 🧪 Testing Scenarios for Evaluators
 
-To verify the AI's "Intelligence," try the following:
+- To verify the AI's "Intelligence," try the following:
 
-The Stalemate: Play your best game. If you play perfectly, the AI will force a Draw.
+- The Stalemate: Play your best game. If you play perfectly, the AI will force a Draw.
 
-The Trap: Try to set up a "double-win" (a fork). Watch as the AI detects and blocks it before you can finish.
+- The Trap: Try to set up a "double-win" (a fork). Watch as the AI detects and blocks it before you can finish.
 
-Input Validation: In the terminal, try entering a letter or a number already taken. The system will prevent the move and ask for a valid one.
+- Input Validation: In the terminal, try entering a letter or a number already taken. The system will prevent the move and ask for a valid one.
 
 ## 📂 Tech Stack
 
