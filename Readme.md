@@ -71,5 +71,3 @@ Language: Python 3.x
 Core Logic: Minimax Algorithm (Adversarial Search)
 
 GUI Library: Tkinter (Standard Python Library)
-
-Created by Gaurav Tiwari, a first-year CSE student at VIT Bhopal.
